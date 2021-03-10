@@ -15,8 +15,7 @@ import com.atlassian.jira.component.ComponentAccessor
 import com.atlassian.jira.config.util.JiraHome
 
 
-log.warn(this.properties)
-log.warn("Variables:" + this.binding.variables)
+
 
 
 String scriptName = "ReloadingTest.groovy"
