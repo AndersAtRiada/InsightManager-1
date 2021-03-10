@@ -50,7 +50,10 @@ import java.util.regex.Pattern
 @WithPlugin("com.riadalabs.jira.plugins.insight")
 
 
-
+//TODO test IM in non HTTP contexts such as a scheduled SR job
+/**
+ * inJsdBehaviourContext has historically failed to initialize under these conditions.
+ */
 
 Logger log = Logger.getLogger("test.report.V2")
 log.setLevel(Level.ALL)
